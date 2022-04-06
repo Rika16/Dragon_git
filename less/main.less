@@ -1,4 +1,5 @@
 @import "variables";
+
 .advantage-bloc {
    display: flex;
    margin-top: 100px;
@@ -60,4 +61,227 @@
 .home-banner {
    display: flex;
    justify-content: center;
+}
+
+.product-bloc {
+   margin: 50px 0 0 0;
+
+}
+
+.Product-items {
+   max-width: 1416px;
+   margin: 0%;
+   margin-top: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+}
+
+.product_item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 36px 24px;
+   margin: 10px;
+
+   position: static;
+   width: 250px;
+   height: 450px;
+
+   /* white */
+
+   background: #FFFFFF;
+   /* timberwolf */
+
+   border: 1px solid #D0CEC8;
+   box-sizing: border-box;
+   border-radius: 16px;
+
+   /* Inside auto layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 1;
+
+   p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 171px;
+      height: 24px;
+      background: #F5F3F0;
+      border-radius: 8px;
+      order: 0;
+      margin: 8px 0px;
+   }
+
+   .description-key {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      padding: 0px;
+      width: 171px;
+      margin-left: -50px;
+      margin-top: -20px;
+      position: relative;
+   }
+
+   .product-info {
+      font-family: 'Averta CY';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 16px;
+      padding: 0px;
+      margin: 0 0 8px 0;
+      /* identical to box height, or 133% */
+
+
+      /* jet */
+
+      color: #41403E;
+      width: 171px;
+   }
+
+   .new {
+      font-family: 'Averta CY';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 16px;
+      color: green;
+      justify-content: center;
+      width: 50px;
+      padding: 0px;
+      margin: 0 0 8px 0;
+   }
+
+   .sale {
+      font-family: 'Averta CY';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 16px;
+      color: red;
+      justify-content: center;
+      width: 50px;
+      padding: 0px;
+      margin: 0px;
+   }
+
+   .product-img {
+      width: 216px;
+      height: 184px;
+      margin-top: -30px;
+
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+   }
+
+   .product-description {
+      width: 216px;
+      height: 48px;
+
+      font-family: 'Averta CY';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #0E0E11;
+      order: 1;
+      margin: 16px 24px;
+   }
+
+   .product-price_section {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 0px;
+
+      position: static;
+      width: 216px;
+
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 2;
+      align-self: stretch;
+      flex-grow: 0;
+      align-items: center;
+
+      .price-old {
+         font-family: 'Averta CY';
+         font-style: normal;
+         font-weight: 300;
+         font-size: 14px;
+         line-height: 22px;
+         /* identical to box height, or 157% */
+
+         text-decoration-line: line-through;
+
+/* sonic silver */
+
+color: #706F6E;
+      }
+
+      .price-sale {
+         padding: 5px;
+         background-color: #F5F3F0;
+         border-radius: 8px;
+      }
+
+      .price-new {
+         color: red;
+         font-family: 'Averta CY';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 24px;
+         line-height: 36px;
+      }
+   }
+
+   .product-btn_home {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 7px 24px;
+
+      width: 120px;
+      height: 36px;
+
+      /* vermilion */
+
+      background: #E42016;
+      border-radius: 8px;
+
+      /* Inside auto layout */
+
+     
+      order: 2;
+      flex-grow: 0;
+      margin: 16px 0px;
+
+      /* h6 14/22 semibold */
+
+      font-family: 'Averta CY';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      color: #FFFFFF;
+      border: #E42016;
+      cursor: pointer;
+
+      
+      
+   }
+   .product-btn_home:hover {
+         animation: bounce 1s;
+      }
 }
